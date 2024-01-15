@@ -10,7 +10,7 @@ REDIS_CONFIG = {
     'db': 0,
     'password': None
 }
-
+#连接池重要参数，最多允许多少连接存在
 REDIS_POOL_CONFIG = {
     'max_connections': 10
 }
