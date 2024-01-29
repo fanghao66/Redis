@@ -9,11 +9,12 @@ Redis是一种key-value类型的内存数据库，其中key必须是字符串类
 1.1 通过命令行：https://www.runoob.com/redis/redis-install.html
 
 1. redis服务启动：  
-    进入redis服务代码所在的文件夹中，启动对应的命令行  
+    进入redis服务代码所在的文件夹中，启动对应的命令行**(需要保持打开不然不能开启服务器）  **
     redis-server.exe redis.windows.conf
 2. 连接redis -- redis的客户端命令行启动  
     进入redis客户端代码所在的文件夹中，启动对应的命令行  
     redis-cli.exe -h 127.0.0.1 -p 6379（也可以连远程的，-h表示主机名，-p表示端口号）
+   修改密码
 
 1.2 通过小皮安装redis client2.0.0和登录
 
